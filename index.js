@@ -24,7 +24,7 @@ app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public'));
 
 app.listen(port, (req,res) =>{
-    console.log('text2');
+    console.log('app listen port '+ port);
 })
 
 
